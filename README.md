@@ -1,2 +1,8 @@
 # PythonGTKTimer
-python gtk timer
+
+EN:
+Python GTK Timer Applet
+
+RU:
+Апплет Таймер Pyhton GTK
+
