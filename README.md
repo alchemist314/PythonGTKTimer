@@ -7,12 +7,10 @@ RU:
 Апплет Таймер Pyhton GTK
 ------------------
 
-Перед запуском замените путь до категорий, таймаутов и лог файла:
+Перед запуском замените пути до файлов категорий, таймаутов и лога:
 
-Before starting, replace the path to categories, timeouts and log file: 
+Before starting, replace the paths to the category, timeout and log files: 
 
 path_to_log='/home/PYTHON_BIN/timer/timer.log'
-
 path_to_category_file='/home/PYTHON_BIN/timer/category.txt'
-
 path_to_times_file='/home/PYTHON_BIN/timer/times.txt'
