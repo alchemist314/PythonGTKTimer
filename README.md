@@ -11,6 +11,6 @@ RU:
 
 Before starting, replace the paths to the category, timeout and log files:
 
-<br>path_to_log='/home/PYTHON_BIN/timer/timer.log'
+path_to_log='/home/PYTHON_BIN/timer/timer.log'
 <br>path_to_category_file='/home/PYTHON_BIN/timer/category.txt'
 <br>path_to_times_file='/home/PYTHON_BIN/timer/times.txt'
