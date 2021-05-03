@@ -1,4 +1,4 @@
-# PythonGTKTimer
+# PythonGTKTimer Linux Applet
 
 EN:
 Python GTK Timer Applet
