@@ -1,0 +1,2 @@
+# PythonGTKTimer
+python gtk timer
