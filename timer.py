@@ -70,25 +70,22 @@ class PyGTKTimer(gtk.Window):
 
       self.add(fixed)
       
-      categoryFile = path_to_times_file
-      fileName = open(categoryFile, 'r')
-      for line in fileName:
-	store.append ([str(line).rstrip()])
-
-      categoryFile = path_to_category_file
-      fileName = open(categoryFile, 'r')
-      for line in fileName:
-	store1.append ([str(line).rstrip()])
-
-      combobox.set_model(store)
+      combobox.set_model(self.readfile(path_to_times_file, store))
       combobox.set_active(0)
 
-      combobox1.set_model(store1)
+      combobox1.set_model(self.readfile(path_to_category_file, store1))
       combobox1.set_active(0)
 
       self.show_all()
 
       return
+
+   def readfile(self, path_to_file, store):
+      categoryFile = path_to_file
+      fileName = open(categoryFile, 'r')
+      for line in fileName:
+        store.append ([str(line).rstrip()])
+      return store
 
    def add_seconds(self, time_now, sec):
       fulldate = datetime.datetime(100, 1, 1, time_now.hour, time_now.minute, time_now.second)
